@@ -59,9 +59,6 @@ BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 --tags_offset 0x01e00000
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
 
-# QCOM hardware
-BOARD_USES_QCOM_HARDWARE := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
