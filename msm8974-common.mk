@@ -278,7 +278,8 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    thermanager
+    thermanager \
+    android.hardware.thermal@2.0-service.mock
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermanager.xml:system/vendor/etc/thermanager.xml
